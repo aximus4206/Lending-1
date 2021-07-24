@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+html, body{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background: url(img/image7.png);
+    background-size: auto;
+    background-position: top center;
+    padding: 48px 84px;
+    height: 900px;
+}
+
+.headernavigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.headerunique p{
+    display: flex;
+    justify-content: start;
+    font-size: 6em;
+    color: rgb(255, 255, 255);
+}
+
+.headuniquebutdiv{
+    margin-top: 50px;
+}
+
+.headuniquebut{
+    padding: 15px 40px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.headerunique{
+    padding: 0 240px;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+
+.navmain ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navmain ul li{
+    margin-right: 30px;
+}
+
+.lang{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.download{
+    margin-right: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 5px;
+}
+
+.lang li{
+    margin-right: 30px;
+    position: relative;
+}
+
+.lang::after{
+    content: "";
+    position: absolute;
+    height: 14.5px;
+    width: 1px;
+    background-color:rgb(255, 255, 255);
+    top: 50px;
+    left: 1195px;
+}
+
+.headerlogo a{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.silverstorheader{
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.wemake{
+    padding: 100px 252px;
+}
+
+.wemake_bolderp{
+    text-align: center;
+    font-size: 3em;
+    color:#4F4A4A;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.wemake_bolderp::after{
+    content: "";
+    position: absolute;
+    width: 318px;
+    height: 1px;
+    background-color: #4F4A4A;
+    top: 194px;
+    left: 264px;
+}
+
+.wemake_thinnerp{
+    text-align: center;
+    font-size: 1.2em;
+    color:#4F4A4A;
+    margin-bottom: 30px;
+    padding: 0 80px;
+}
+
+.popularjew{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color:#4F4A4A;
+    margin-bottom: 40px;
+}
+
+.goodsgrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.good{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.good h3,p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #4F4A4A;
+}
+
+.good h3{
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+
+.good img{
+    margin-bottom: 40px;
+}
+
+.goodprice{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.lookbookfotos{
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.headercenter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.looksecondtext{
+    padding: 30px 101px;
+}
+
+.looksecondtext h3{
+    position: relative;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-bottom: 60px;
+    color: #4F4A4A;
+}
+
+.looksecondtext h3::after{
+    position: absolute;
+    content: "";
+    width: 161px;
+    height: 1px;
+    background-color: #4F4A4A;
+    top: 101px;
+    left: 0px;
+}
+
+.looksecondtext p{
+    font-size: 1.3em;
+    font-weight: lighter;
+    color: #4F4A4A;
+}
+
+.instabiege{
+    background-color: #FCEFEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 40px;
+    margin-bottom: 100px;
+}
+
+.instaphoto{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+.instaphoto img{
+    width: 250px;
+    height: 250px;
+}
+
+.instaheader{
+    margin-bottom: 30px;
+}
+
+.biegebut{
+    background-color: #C99280;
+    padding: 20px 70px;
+}
+
+.changesection{
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+}
+
+.changeheader{
+    margin-bottom: 50px;
+}
+
+.changetwodiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.changephoto{
+    width: 50%;
+}
+
+.changetext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.changetext h3{
+    position: relative;
+    font-size: 2em;
+    font-weight: lighter;
+    color: #4F4A4A;
+    margin-bottom: 54px;
+}
+
+.changetext h3::after{
+    position: absolute;
+    content: "";
+    width: 161px;
+    height: 1px;
+    background-color: #4F4A4A;
+    top: 62px;
+    left: 0px;
+}
+
+.changetext p{
+    margin-bottom: 20px;
+    color: #4F4A4A;
+    font-size: 1.2em;
+}
+
+.contactform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.formcontactus{
+    background-color: #FDF4F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 270px;
+}
+
+.advancesearchbut{
+    padding: 20px 164px;
+    background-color: #C99180;
+}
+
+.formcontactus input{
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: #FDF4F2;
+    border: none;
+    border-bottom: 1px solid #9C9C9C;
+    padding-bottom: 13px;
+}
+
+.formcontactus textarea{
+    width: 100%;
+    background-color: #FDF4F2;
+    border: none;
+    border-bottom: 1px solid #9C9C9C;
+    padding-bottom: 13px;
+    margin-bottom: 60px;
+}
+
+.silverfooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 54px;
+    border-bottom: 1px solid #E8E8E8;
+
+}
+
+.linkicons{
+    margin-bottom: 44px;
+}
+
+.lastheader p{
+    font-size: 1.3em;
+    font-weight: lighter;
+    color: #4F4A4A;
+}
+
+.sitedevelop{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.sitedevelop p{
+    margin-bottom: 0;
+    margin-right: 10px;
+}
